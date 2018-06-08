@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-demon-api-impl" />
+        <module name="dubbo-demon-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demon-test" target="1.8" />
+      <module name="Dubbo-demon" target="1.8" />
+      <module name="dubbo-demon-api" target="1.8" />
+      <module name="dubbo-demon-api-impl" target="1.8" />
+      <module name="dubbo-demon-consumer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
